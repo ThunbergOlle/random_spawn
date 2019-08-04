@@ -1,0 +1,17 @@
+name: RandomSpawn
+main: me.bukkit.randomspawn.main
+version: 1.0
+author: OlleThunberg
+prefix: RandomSpawn
+commands:
+   setspawnarea:
+      description: Sets the spawn area which players are able to spawn in.
+      permission: set.spawnarea
+      permission-message: You do not have permission!
+      usage: /<command> area
+      
+permissions:
+  set.spawnarea:
+   description: Allows setspawnarea command
+   default: op
+   
